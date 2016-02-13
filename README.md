@@ -5,7 +5,7 @@ Desktop port of KC3改 for the horde who had been bugging me for it
 
 #### Option 1: Manual
 * Clone this repo into your machine
-* Download and extract latest nwjs (>0.13.5-beta5)
+* Download and extract latest [nwjs](http://nwjs.io) (>0.13.5-beta5)
  * if you're developing, get the SDK version
  * if just testing, get NORMAL version
 * Install node modules
