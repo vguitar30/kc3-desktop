@@ -8,6 +8,8 @@ Desktop port of KC3改 for the horde who had been bugging me for it
 * Download and extract latest nwjs (>0.13.5-beta5)
  * if you're developing, get the SDK version
  * if just testing, get NORMAL version
+* Install node modules
+ * `npm i`
 * Run the app
  * `cd /path/to/your/app /path/to/nw .`
 
@@ -16,5 +18,7 @@ Desktop port of KC3改 for the horde who had been bugging me for it
 #### Option 2: `nw-builder`
 Not yet recommended since nw-builder is having problems with latest 0.13 versions.
 * `npm install -g nw-builder`
+* Install node modules
+ * `npm i`
 * `nwbuild -p <PLATFORM_HERE> /path/to/your/app`
  * `<PLATFORM_HERE>` possible values: `win32`,`win64`,`osx32`,`osx64`,`linux32`,`linux64`

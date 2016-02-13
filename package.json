@@ -1,17 +1,17 @@
 {
-  "name": "KC3改二",
+  "name": "FleetCommandFacility",
   "version": "0.0.1",
   "description": "Kantai Collection Game Viewer and Tools",
   "repository": {
     "type": "git",
-    "url": "https://github.com/KC3Kai/ni.git"
+    "url": "https://github.com/KC3Kai/FleetCommandFacility.git"
   },
   "author": "dragonjet <jetriconew@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KC3Kai/ni/issues"
+    "url": "https://github.com/KC3Kai/FleetCommandFacility/issues"
   },
-  "homepage": "https://github.com/KC3Kai/ni",
+  "homepage": "https://github.com/KC3Kai/FleetCommandFacility",
   "dependencies": {
     "chrome-remote-interface": "^0.11.0"
   },
@@ -24,6 +24,8 @@
     "toolbar": false,
     "frame": false,
     "position": "center",
+    "max_width": 820,
+    "max_height": 720,
     "width": 820,
     "height": 720,
     "min_width": 800,
