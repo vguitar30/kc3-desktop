@@ -18,7 +18,7 @@
   "devDependencies": {
   
   },
-  "main": "index.html",
+  "main": "src/index.html",
   "window": {
     "show": false,
     "toolbar": false,
