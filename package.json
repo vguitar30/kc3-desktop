@@ -1,0 +1,33 @@
+{
+  "name": "KC3改二",
+  "version": "0.0.1",
+  "description": "Kantai Collection Game Viewer and Tools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KC3Kai/ni.git"
+  },
+  "author": "dragonjet <jetriconew@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KC3Kai/ni/issues"
+  },
+  "homepage": "https://github.com/KC3Kai/ni",
+  "dependencies": {
+    "chrome-remote-interface": "^0.11.0"
+  },
+  "devDependencies": {
+  
+  },
+  "main": "index.html",
+  "window": {
+    "show": false,
+    "toolbar": false,
+    "frame": false,
+    "position": "center",
+    "width": 820,
+    "height": 720,
+    "min_width": 800,
+    "min_height": 480
+  },
+  "chromium-args": "--remote-debugging-port=9227"
+}
