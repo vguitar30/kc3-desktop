@@ -1,3 +1,15 @@
+QUnit.test( "Chrome", function( assert ) {
+	assert.ok(chrome, "OK chrome");
+});
+
+QUnit.test( "Chrome App API", function( assert ) {
+	assert.ok(chrome.accessibilityFeatures, "OK chrome.accessibilityFeatures");
+});
+
+QUnit.test( "Chrome Extension API", function( assert ) {
+	assert.ok(chrome.cookies, "OK chrome.cookies");
+});
+/*
 try { console.log("chrome.accessibilityFeatures", chrome.accessibilityFeatures); }catch(e){  }
 try { console.log("chrome.alarms", chrome.alarms); }catch(e){  }
 try { console.log("chrome.app.runtime", chrome.app.runtime); }catch(e){  }
@@ -50,3 +62,4 @@ try { console.log("chrome.devtools.network", chrome.bluetooth); }catch(e){  }
 try { console.log("chrome.devtools.panels", chrome.bluetooth); }catch(e){  }
 try { console.log("chrome.desktopCapture", chrome.bluetooth); }catch(e){  }
 try { console.log("chrome.debugger", chrome.bluetooth); }catch(e){  }
+*/

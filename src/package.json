@@ -1,0 +1,31 @@
+{
+  "name": "kc3-desktop",
+  "version": "0.0.3",
+  "description": "Kantai Collection Game Viewer and Tools",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KC3Kai/kc3-desktop.git"
+  },
+  "author": "dragonjet <jetriconew@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KC3Kai/kc3-desktop/issues"
+  },
+  "homepage": "https://github.com/KC3Kai/kc3-desktop",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.6",
+    "chrome-remote-interface": "^0.11.0",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.33.13",
+    "jquery": "^2.2.0",
+    "jquery-ui": "^1.10.5",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.0",
+    "zone.js": "^0.5.14"
+  },
+  "main": "bootstrap.html",
+  "window": {
+    "show": false
+  },
+  "chromium-args": "--remote-debugging-port=9227"
+}

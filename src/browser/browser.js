@@ -1,9 +1,15 @@
 var gui = require("nw.gui");
+require("jquery");
+
+function openUrl(){
+	var newTab = $(".factory .tab").clone().appendTo(".tabs");
+	newTab.html("1");
+}
 
 window.onload = function() {
-	var win = gui.Window.get();
+	//var win = gui.Window.get();
 	
-	var DebugConnect = require('chrome-remote-interface')({
+	/*var DebugConnect = require('chrome-remote-interface')({
 		port: 9227
 	});
 
@@ -22,7 +28,7 @@ window.onload = function() {
 
 	DebugConnect.on("error", function(err){
 		console.log(err);
-	});
+	});*/
 	
-	gui.Window.get().show();
+	//gui.Window.get().show();
 };
